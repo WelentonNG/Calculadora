@@ -101,7 +101,7 @@ def calcular_radiciacao():
         print("Erro: Digite apenas números válidos!")
 
 
-def triangolo_retangulo():
+def triangulo_retangulo():
     cat1=float(input('digite cateto 1 '))
     cat2=float(input('digite cateto 2 '))
 
@@ -141,7 +141,7 @@ while True:
     elif opcao== '4':
         calcular_radiciacao()
     elif opcao == '5':
-        triangolo_retangulo()
+        triangulo_retangulo()
     elif opcao=='6':
         timer2()
         break

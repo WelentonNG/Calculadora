@@ -2,7 +2,7 @@ import time
 
 def timer2 ():
     print("Fechando o programa... ⏳")
-    time.sleep(2)
+    time.sleep(3)
     print("bye bye :)   ")
 
 
@@ -105,14 +105,14 @@ def triangulo_retangulo():
     cat1=float(input('digite cateto 1 '))
     cat2=float(input('digite cateto 2 '))
 
-    TR=((cat1 * cat2 )/2)
+    tr=((cat1 * cat2 )/2)
     print(f'A area é {TR} ')
 
 
 
 while True:
     print("\n")
-    print(" "*15 + "📊 CALCULADORA UNIVERSAL 📊")
+    print(" "*15 + "📊 CALCULADORA 📊")
     print('\n')
 
     print("1 ➔ Operações básicas (+ - * /)")
@@ -146,6 +146,6 @@ while True:
         timer2()
         break
     else:
-        print("digite algo doido")
+        print("Por gentileza digite uma opção desejada")
         print('\n')
         print('\n')

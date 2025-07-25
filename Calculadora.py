@@ -149,3 +149,6 @@ while True:
         print("Por gentileza digite uma opção desejada")
         print('\n')
         print('\n')
+'''
+Atualizações em BREVE :)
+'''
